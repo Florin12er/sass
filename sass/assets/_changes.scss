@@ -1,0 +1,37 @@
+h1 {
+  color: $green;
+  background-color: $background-color;
+  font-weight: weight(bold);
+
+  a {
+    color: $blue;
+    background-color: $a-background-color;
+    font-weight: weight(medium);
+
+    p {
+      color: $white;
+      background-color: $green;
+      font-weight: weight(regular);
+    }
+  }
+}
+
+.main {
+  &_paragraph {
+    color: $white;
+    background-color: $background-color;
+  }
+
+  &_name {
+    color: $blue;
+    background-color: $green;
+
+    &:hover {
+      color: $pink;
+    }
+  }
+}
+
+.description {
+  @include mediumSize(2rem);
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #12fa12;
+  background-color: #111;
+  font-weight: 800;
+}
+h1 a {
+  color: #12f;
+  background-color: #fff;
+  font-weight: 500;
+}
+h1 a p {
+  color: #fff;
+  background-color: #12fa12;
+  font-weight: 300;
+}
+
+.main_paragraph {
+  color: #fff;
+  background-color: #111;
+}
+.main_name {
+  color: #12f;
+  background-color: #12fa12;
+}
+.main_name:hover {
+  color: rgb(200, 100, 100);
+}
+
+.description {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #12fa12;
+}
+
+@media (max-width: 48rem) {
+  .description {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #12fa12;
+  }
+}
+@media (max-width: 26.5625rem) {
+  .description {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #12fa12;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,11 @@
+@media(max-width: $tablet) {
+  .description {
+    @include tabletSize(1.5rem);
+  }
+}
+
+@media(max-width: $mobile) {
+  .description {
+    @include mobileSize(1rem);
+  }
+}

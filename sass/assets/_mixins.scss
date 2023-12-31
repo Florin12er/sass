@@ -1,0 +1,17 @@
+@mixin mediumSize($size) {
+  font-size: $size;
+  font-weight: weight(bold);
+  color: $green;
+}
+
+@mixin mobileSize($size) {
+  font-size: $size;
+  font-weight: weight(regular);
+  color: $green;
+}
+
+@mixin tabletSize($size) {
+  font-size: $size;
+  font-weight: weight(medium);
+  color: $green;
+}
